@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #1d2238;
+    font-family: arial;
+}
+
+h1{
+    float: right;
+    color: #2af77c;
+}
+
+
+
+.ul-list{
+    width: 25%;
+    margin: 10px auto 10px auto;
+    h2{
+        text-align: center;
+        color: #2af77c;
+    }
+    
+    
+    .list{
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        color: #2af77c;
+        .usa{
+            list-style: none;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #2af77c;
+            li{
+                text-align: center;
+            }
+        }
+        .germany{
+            list-style: none;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #2af77c;
+            li{
+                text-align: center;
+            }
+        }
+        .armenia{
+            list-style: none;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #2af77c;
+            li{
+                text-align: center;
+            }
+        }
+        .russia{
+            list-style: none;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #2af77c;
+            li{
+                text-align: center;
+            }
+        }
+        .ukraine{
+            list-style: none;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #2af77c;
+            li{
+                text-align: center;
+            }
+        }
+    }
+}
+
+.ol-list{
+    width: 25%;
+    margin: 10px auto 10px auto;
+    h2{
+        text-align: center;
+        color: #2af77c;
+    }
+
+    
+    .list2{
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        color: #2af77c;
+    }
+}
+
+.table{
+    width: 25%;
+    margin: 10px auto 10px auto;
+    h2{
+        text-align: center;
+        color: #2af77c;
+    }
+    .number-table{
+        border-collapse: collapse;
+        border-color: #00ff66;
+        margin-top: 10px;
+        color: #2af77c;
+        tr{
+            &:nth-child(4n){
+                background-color: #2606f4;
+            }
+            &:nth-child(4n - 1){
+                background-color: #e1ea34;
+            }
+            &:nth-child(4n - 2){
+                background-color: #9631f4;
+            }
+            &:nth-child(4n - 3){
+                background-color: #22a5fd;
+            }
+        }
+        tr>th{
+            padding: 7px;
+        }
+        tr>td{
+            padding: 7px;
+        }
+
+    }
+}
+
+.table2{
+    width: 25%;
+    margin: 20px auto 10px auto;
+    .myTable{
+        text-align: center;
+        border-collapse: collapse;
+        border-color: #00ff66;
+        margin-top: 10px;
+        color: #2af77c;
+        th{
+            padding: 5px;
+        }
+        td{
+            padding: 7px;
+        }
+    }
+}

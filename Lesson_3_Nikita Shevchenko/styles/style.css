@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1d2238;
+  font-family: arial;
+}
+
+h1 {
+  float: right;
+  color: #2af77c;
+}
+
+.ul-list {
+  width: 25%;
+  margin: 10px auto 10px auto;
+}
+.ul-list h2 {
+  text-align: center;
+  color: #2af77c;
+}
+.ul-list .list {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #2af77c;
+}
+.ul-list .list .usa {
+  list-style: none;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #2af77c;
+}
+.ul-list .list .usa li {
+  text-align: center;
+}
+.ul-list .list .germany {
+  list-style: none;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #2af77c;
+}
+.ul-list .list .germany li {
+  text-align: center;
+}
+.ul-list .list .armenia {
+  list-style: none;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #2af77c;
+}
+.ul-list .list .armenia li {
+  text-align: center;
+}
+.ul-list .list .russia {
+  list-style: none;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #2af77c;
+}
+.ul-list .list .russia li {
+  text-align: center;
+}
+.ul-list .list .ukraine {
+  list-style: none;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #2af77c;
+}
+.ul-list .list .ukraine li {
+  text-align: center;
+}
+
+.ol-list {
+  width: 25%;
+  margin: 10px auto 10px auto;
+}
+.ol-list h2 {
+  text-align: center;
+  color: #2af77c;
+}
+.ol-list .list2 {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #2af77c;
+}
+
+.table {
+  width: 25%;
+  margin: 10px auto 10px auto;
+}
+.table h2 {
+  text-align: center;
+  color: #2af77c;
+}
+.table .number-table {
+  border-collapse: collapse;
+  border-color: #00ff66;
+  margin-top: 10px;
+  color: #2af77c;
+}
+.table .number-table tr:nth-child(4n) {
+  background-color: #2606f4;
+}
+.table .number-table tr:nth-child(4n-1) {
+  background-color: #e1ea34;
+}
+.table .number-table tr:nth-child(4n-2) {
+  background-color: #9631f4;
+}
+.table .number-table tr:nth-child(4n-3) {
+  background-color: #22a5fd;
+}
+.table .number-table tr > th {
+  padding: 7px;
+}
+.table .number-table tr > td {
+  padding: 7px;
+}
+
+.table2 {
+  width: 25%;
+  margin: 20px auto 10px auto;
+}
+.table2 .myTable {
+  text-align: center;
+  border-collapse: collapse;
+  border-color: #00ff66;
+  margin-top: 10px;
+  color: #2af77c;
+}
+.table2 .myTable th {
+  padding: 5px;
+}
+.table2 .myTable td {
+  padding: 7px;
+}/*# sourceMappingURL=style.css.map */
